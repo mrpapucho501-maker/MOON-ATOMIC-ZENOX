@@ -3368,7 +3368,7 @@ end)
 
 local Credits = window:AddTab("Credits")
 
-Credits:AddLabel("MOON ATOMIC SCRIPT PRIVATE")
+Credits:AddLabel("MOON ATOMIC PRIVATE")
 Credits:AddLabel("Script Hecho por:ZENOX")
 Credits:AddLabel("Tiktok: ZENOXXIP")
 Credits:AddLabel("SC ON TOP 🔥")
