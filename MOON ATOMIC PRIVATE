@@ -9,7 +9,7 @@ local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
 local window = library:AddWindow("MOON ATOMIC PRIVATE | Bienvenido " .. displayName, {
-    main_color = Color3.fromRGB(181, 139, 247),
+    main_color = Color3.fromRGB(68, 2, 171),
     min_size = Vector2.new(600, 820),
     can_resize = false,
 })
