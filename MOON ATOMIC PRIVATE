@@ -8,7 +8,7 @@ local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("ATOMIC DEATH | WELCOME " .. displayName, {
+local window = library:AddWindow("𝐃𝐄𝐀𝐓𝐇 𝐀𝐓𝐎𝐌𝐈𝐂 | 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 " .. displayName, {
     main_color = Color3.fromRGB(20, 20, 20),
     min_size = Vector2.new(600, 820),
     can_resize = false,
@@ -481,7 +481,7 @@ AutoFarm:AddSwitch("Anti AFK", function(state)
         uselesslabelone.Position = UDim2.new(0.3,0,0,0)
         uselesslabelone.Size = UDim2.new(0,95,0,24)
         uselesslabelone.Font = Enum.Font.SourceSans
-        uselesslabelone.Text = "Anti Afk SC ZENOX"
+        uselesslabelone.Text = "𝐀𝐧𝐭𝐲 𝐀𝐟𝐤 𝐒𝐂 𝐙𝐄𝐍𝐎𝐗"
         uselesslabelone.TextColor3 = Color3.fromRGB(255,255,255)
         uselesslabelone.TextSize = 14
 
