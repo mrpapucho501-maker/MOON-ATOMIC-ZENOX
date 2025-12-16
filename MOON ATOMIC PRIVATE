@@ -3367,8 +3367,10 @@ end)
 
 
 local Credits = window:AddTab("Credits")
-
+Credits:AddLabel("SCRIPT PRIVATE")
 Credits:AddLabel("ATOMIC DEATH SCRIPT")
 Credits:AddLabel("Tiktok: ZENOXXIP")
 Credits:AddLabel("SC ON TOP 🔥")
 Credits:AddLabel("ATOMIC DEATH")
+Credits:AddLabel("JOIN THE DISCORD COMMUNITY")
+Credits:AddLabel("https://discord.gg/mpgeD4AS")
