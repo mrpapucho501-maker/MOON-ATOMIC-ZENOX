@@ -8,13 +8,13 @@ local player = game.Players.LocalPlayer
 local displayName = player.DisplayName or player.Name
 
 -- VENTANA PRINCIPAL
-local window = library:AddWindow("MOON ATOMIC ZNX | WELCOME " .. displayName, {
+local window = library:AddWindow("The Last Demon | WELCOME " .. displayName, {
     main_color = Color3.fromRGB(20, 20, 20),
     min_size = Vector2.new(600, 820),
     can_resize = false,
 })
 
-local AutoFarm = window:AddTab("Farm OP")
+local AutoFarm = window:AddTab("Farm Demon")
 AutoFarm:Show()
 
 
@@ -481,7 +481,7 @@ AutoFarm:AddSwitch("Anti AFK", function(state)
         uselesslabelone.Position = UDim2.new(0.3,0,0,0)
         uselesslabelone.Size = UDim2.new(0,95,0,24)
         uselesslabelone.Font = Enum.Font.SourceSans
-        uselesslabelone.Text = "ANTY AFK MOON ATOMIC"
+        uselesslabelone.Text = "ANTI AFK ZEN"
         uselesslabelone.TextColor3 = Color3.fromRGB(255,255,255)
         uselesslabelone.TextSize = 14
 
@@ -3370,8 +3370,8 @@ local Credits = window:AddTab("Credits")
 Credits:AddLabel("MOON ATOMIC SCRIPT")
 Credits:AddLabel("Tiktok:zenoxxip")
 Credits:AddLabel("SC ON TOP🔥")
-Credits:AddLabel("INFERNO HUB")
+Credits:AddLabel("Last demon"🔥)
 Credits:AddLabel("JOIN THE DISCORD COMMUNITY")
 Credits:AddLabel("https://discord.gg/mpgeD4AS")
-Credits:AddLabel("thanks for use MOON ATOMIC")
+Credits:AddLabel("thanks for use the last demon")
 Credits:AddLabel("SCRIPT AFK 24 HOURS")
